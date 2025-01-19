@@ -17,6 +17,18 @@ The CPU follows a traditional 5-stage pipeline architecture, including:
   - Data hazards with forwarding and stalling mechanisms.
   - Control hazards with branch prediction and flushing.
   - Support for a limited instruction set suitable for the project demonstration.
+ 
+## How to Run
+1. Clone this repository to your local machine.
+2. Compile the project:
+   ```bash
+   make compile
+   ```
+3. Load instructions into `instructions.bin`, then execute the program by
+   ```bash
+   make test
+   ```
+4. After execution, the contents of main memory and the register files will show in terminal. In addition, the main memory will also be dumped in `data.bin`.
 
 ## Disclaimer
 This project is for educational and demonstration purposes only. Do not use this project for assignments or academic submissions.
